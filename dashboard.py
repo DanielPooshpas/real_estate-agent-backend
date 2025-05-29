@@ -10,8 +10,9 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_API_KEY = os.getenv("SUPABASE_API_KEY")
+SUPABASE_URL = "https://pnpvxufeyjqlprqzbmhv.supabase.co"
+SUPABASE_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBucHZ4dWZleWpxbHBycXpibWh2Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcxNjk0NzM1MiwiZXhwIjoxNzQ4NTIzMzUyfQ.m8G_l4zvPJoKi-K0uGGWI9kIOH2ZVn9EU4a4AsPbA0o"
+
 
 # Stop if env vars are missing
 if not SUPABASE_URL or not SUPABASE_API_KEY:
